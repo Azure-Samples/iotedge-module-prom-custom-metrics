@@ -1,14 +1,14 @@
-# Project Name
+# NotMyFault Azure IoT Edge module
 
-(short, 1-3 sentenced, description of the project)
+A basic Azure IoT Edge module that publishes custom metrics to be collected by the Azure Monitor module.
+
+Then, use the provided workbook to analyze such metrics and follow the guide to create alert rules.
 
 ## Features
 
-This project framework provides the following features:
+This module has no production features but it is meant to test Azure Monitor integration with Azure IoT Edge module.
 
-* Feature 1
-* Feature 2
-* ...
+This module implements a direct method that terminates executable itself. Invoking this direct method multiple times is useful to test same scenarios on the cloud side.
 
 ## Getting Started
 
@@ -29,12 +29,12 @@ This project framework provides the following features:
 - ...
 
 ### Quickstart
+
 (Add steps to get up and running quickly)
 
 1. git clone [repository clone url]
 2. cd [respository name]
 3. ...
-
 
 ## Demo
 
